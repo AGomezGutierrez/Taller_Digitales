@@ -20,3 +20,32 @@ SIGNIFICADO DE PARÁMETROS:
 - El voltaje de entrada máximo para considerar la entrada como un CERO lógico VIL
 - La corriente de entrada para una compuerta en nivel BAJO IIL
 - La corriente de entrada para una compuerta en nivel ALTO IIH
+
+TTL: diseñada para una alta velocidad. CMOS: diseñada para un bajo consumo.
+Fan-out. Cuando la salida de una puerta lógica se conecta a una o más entradas de otras puertas se genera una carga en la puerta excitadora. Existe un límite para el número de entradas que una cierta puerta puede excitar. Este límite se denomina fan-out o cargabilidad de la puerta.
+
+tr (rise): tiempo de subida. tf (fall): tiempo de bajada. Los valores de retardo de subida tpLH y de bajada tpHL, definiéndose como tiempo de retardo tp al promedio entre ambos tp = (tpLH + tpHL)/2 . tt: tiempo de transición.
+
+Niveles V          TTL       CMOS
+Bajo (0)          0-0.8      0-1.5
+Alto (1)           2-5       3.5-5
+
+SCHMITT TRIGGER
+El Schmitt Trigger usa la histéresis para prevenir el ruido que podría tapar a la señal original y que causaría falsos cambios de estado si los niveles de referencia
+y entrada son parecidos. Con esto se hace que el circuito cree una banda centrada en cero, con niveles de disparo ±(R1/R2)VS.
+
+DEBOUNCING CIRCUITS
+Los rebotes son las falsas pulsaciones (ruido) que se producen al hacer falsos contactos en el interruptor. El proceso de eliminarlos se llama "Debounce". Los dispositivos electrónicos al cambiar de estado generan una señal que, sin ser perfectamente cuadrada, en general es más o menos "recta".
+
+PULL UP Y PULL DOWN
+Como funcionalidad básica, estas resistencias establecen un estado lógico en un pin o entrada de un circuito lógico cuando se encuentra en estado reposo.
+Como lo indica su nombre, la resistencia pull up establece un estado HIGH y las resistencias pull down establecen un estado LOW cuando el pin se encuentra en reposo.
+
+MODELADO Y COMPORTAMIENTO:
+El modelado digital se refiere al proceso de creación digital de una representación matemática de la forma tridimensional de un objeto.
+
+FPGA
+Un FPGA (Field Programable Gate Array) es un conjunto de circuitos integrados, como puede ser cualquier chip, que está pensado para entregarse al cliente sin configurarlo para que luego cada uno lo personalice, y programe según la tarea que necesite que haga esa pieza, una vez esta ya se ha fabricado.
+
+ASIC
+Un ASIC (circuito integrado específico de aplicación, por sus siglas en inglés) es un chip en el que las conexiones se diseñan y configuran para un propósito específico, por ejemplo, la minería de bitcoins.
