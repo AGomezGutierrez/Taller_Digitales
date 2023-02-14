@@ -1,2 +1,5 @@
-Listo
-Continuar para mejorar el informe desde un punto de vista formal en un tiempo
+Evolución
+serie 74, serie 74L, serie 74S (Schottky),
+serie 74LS (Schottky de bajo consumo),
+serie 74ALS, 74F,
+versiones de baja tensión de alimentación
