@@ -1,15 +1,22 @@
-EVOLUCIÓN TTL (Lógica Transistor-Transistor)
+EVOLUCIÓN TTL (Lógica Transistor-Transistor):
 
 serie 74, serie 74L, serie 74S (Schottky de alta velocidad),
 serie 74LS (Schottky de bajo consumo),
 serie 74ALS, 74F, versiones de baja tensión de alimentación
 serie 74 HC XX, versiones Tipo C-MOS, alta velocidad) 
 
-CARACTERÍSTICAS DE FAMILIA CMOS
+CARACTERÍSTICAS DE FAMILIA CMOS:
 a) La disipación de potencia de estado estático de los circuitos lógicos CMOS es muy baja.
 b) Los niveles lógicos de voltaje CMOS son 0 V para 0 lógico y VDD para 1 lógico. El suministro VDD puede estar en el rango 3 V a 15 V para la serie 4000.
 
-CIUDADOS PARA TECNOLOGÍA CMOS
+CIUDADOS PARA TECNOLOGÍA CMOS:
 Si los dispositivos CMOS funcionan con un voltaje superior a 5V para trabajar junto con TTL se deben de tomar medidas especiales, Niveles de voltaje. Cuando las salidas CMOS manejan sólo entradas CMOS, los niveles de voltaje de la salida pueden estar muy cercanos a 0V para el estado bajo, y a VDD para el estado alto.
 
-SIGNIFICADO DE PARÁMETROS
+SIGNIFICADO DE PARÁMETROS:
+- Corriente máxima de salida IOH. Corriente máxima de salida en bajo IOL.
+- Voltaje de salida de nivel lógico ALTO que depende tanto de la entrada como de la salida de corriente de cada compuerta VOH
+- Hay un voltaje de salida de nivel lógico BAJO que depende tanto de la entrada como de la salida de corriente de cada compuerta VOL
+- El voltaje de entrada mínimo para considerar la entrada como un UNO lógico VIH
+- El voltaje de entrada máximo para considerar la entrada como un CERO lógico VIL
+- La corriente de entrada para una compuerta en nivel BAJO IIL
+- La corriente de entrada para una compuerta en nivel ALTO IIH
